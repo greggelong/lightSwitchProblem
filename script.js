@@ -24,9 +24,10 @@ function setup() {
 function draw(){
   showGrid();
   updateGrid();
-  //if (frameCount% 30==0){
-   // makeGrid()
- // }
+  if (gen >100){
+    gen= 0
+    makeGrid()
+    }
  gen++
 
 }
@@ -78,6 +79,7 @@ function showGrid() {
       noStroke()
       text((j*10)+i+1,i*sz,j*sz+sz)
       stroke(127)
+      text(gen-1,12,30)
     }
   }
 }

@@ -2,5 +2,11 @@
 
  like the numberphile video
 
- https://ytb.com/-UBDRX6bk-A
+ Light Switch Problem live at:
+
+ https://greggelong.github.io/lightSwitchProblem/lightSwitch
+
+ Sieve of Eratosthenes
+
+ https://greggelong.github.io/lightSwitchProblem/sieve
 
